@@ -438,7 +438,7 @@ li {
 }
 
 .fbInsta {
-    padding-left: 1%;
+    padding-left: 16%;
     display: flex;
 }
 
@@ -476,6 +476,23 @@ li {
 }
 
 /* MEDIAQUERY==============================*/
+
+@media (max-width:680px){
+    .navbar p {
+        font-size: 30px;
+        text-align: center;
+        align-content: center;
+        max-width: 47%;
+        margin-left: 280px;
+        
+    }
+
+    .nav-logo img {
+        max-width: 48%;
+        margin-left: -8px;
+    }
+}
+
 @media (max-width:750px) {
     .logo-footer  img {
         width: 140px;
@@ -498,3 +515,4 @@ li {
    padding-right: 35%;
     }
 }
+
