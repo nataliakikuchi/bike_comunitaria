@@ -44,16 +44,15 @@ nav {
     padding-right: 5px;
     }   
     
-   
     .navbar-dark .navbar-nav .nav-link {
-        color: #f4c70c;
+        color: #E8E8E8;
         text-decoration: none;
         font-family: 'Fjalla One', sans-serif;
     }
 
     .navbar-dark .navbar-nav .nav-link:hover {
-        color: white; 
-        background-color: #800724;
+        color: #E8E8E8; 
+        background-color: #005C84;
         
     }
          
@@ -62,15 +61,36 @@ nav {
     }
     
     .nav-logo img {
-        width: 120px;
+        width: 110px;
+        margin-left: -30%;
     }
+
+    a.nav-logo { 
+        margin-right: -380px;
+
+    }
+
+    a.nav-item.nav.link {
+        margin-right: -50px;
+    }
+
+    .navbar p {
+        font-family: 'Fjalla One', sans-serif;
+        text-align: center;
+        font-size: 3.3em;
+        color: #E8E8E8;
+        letter-spacing: 0.1em;
+        word-spacing: 0.3em;
+    }
+
+   
 
 /* ======================================================
 ==========================================/* PAGINA HOME*/
 
 /* BOTÃO SAIBA MAIS */
 .button {
-    border: 2px solid white;
+    border: 2px solid #E8E8E8;
     border-radius: 15px;
     text-align: center;
   }
@@ -80,7 +100,7 @@ nav {
   }
 
   .btn a {
-    color: white;
+    color: #E8E8E8;
     font-size: 14px;
     font-family: 'Nunito', sans-serif;
     padding: 15px;
@@ -89,24 +109,24 @@ nav {
   }
 
   #capa .btn a:hover {
-    color: #800724;
-    background-color: white; 
+    color: #005c84;
+    background-color: #E8E8E8; 
     transition: ease-in 0.3s;
   }
 
-  #atuacao .btn a:hover {
+  #utilizacao .btn a:hover {
     color: #12663c;
     background-color: white; 
     transition: ease-in 0.3s;
   }
 
-  #sarau .btn a:hover {
+  #galeria .btn a:hover {
     color: #F4C70C;
     background-color: white; 
     transition: ease-in 0.3s;
   }
 
-/* BOTÃO SUBIR */
+/* BOTÃO SUBIR / VOLTAR A TELA PARA CIMA */
 
 .arrow-up {
     position: fixed;
@@ -141,10 +161,10 @@ nav {
     top: 5px;
 }
 
-/* PARALLAX */
+/* PARALLAX O PROJETO */
 
 #capa .parallax {
-    background-image: url('../img/aasdasd.png');
+    background-image: url('../img/img6.jpg');
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -153,7 +173,7 @@ nav {
 }
 
 #capa .parallax-content {
-     background-color: #800724;
+     background-color: #005C84;
      text-align: center;
      padding: 50px 0;
      position: relative; 
@@ -163,21 +183,21 @@ nav {
     font-family: 'Fjalla One', sans-serif;
     font-size: 30px;
     text-transform: uppercase;
-    color: white;
+    color: #E8E8E8;
     margin-top: 0;
     padding-top: 20px;
 }
 
 #capa .parallax-content > p {
     font-family: 'Nunito', sans-serif;
-    color: white;
+    color: #E8E8E8;
     text-transform: none;
 }
 
-/* PARALLAX ATUAÇÃO */
+/* PARALLAX UTILIZAÇÃO / COMO UTILIZAR */
 
-#atuacao .parallax-atuacao {
-    background-image: url('../img/vozess2.jpg');
+#utilizacao .parallax-utilizacao {
+    background-image: url('../img/img1.jpg');
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -185,31 +205,31 @@ nav {
     background-size: cover;
 }
 
-#atuacao .parallax-content-atuacao {
-    background-color: #12663c;
+#utilizacao .parallax-content-utilizacao {
+    background-color: #FEA02F;
     text-align: center;
     padding: 50px;
 }
 
-#atuacao .parallax-content-atuacao h3 {
+#utilizacao .parallax-content-utilizacao h3 {
    font-family: 'Fjalla One', sans-serif;
    font-size: 30px;
    text-transform: uppercase;
-   color: white;
+   color:#E8E8E8;
    margin-top: 0;
    padding-top: 20px;
 }
 
-#atuacao .parallax-content-atuacao > p {
+#utilizacao .parallax-content-utilizacao > p {
     font-family: 'Nunito', sans-serif;
-   color: white;
+   color: #E8E8E8;
    text-transform: none;
 }
 
-/* PARALLAX SARAU */
+/* PARALLAX GALERIA DE FOTOS */
 
-#sarau .parallax-sarau {
-    background-image: url('../img/vozes9.jpg');
+#galeria .parallax-galeria {
+    background-image: url('../img/img7.jpg');
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -217,32 +237,32 @@ nav {
     background-size: cover;
 }
 
-#sarau .parallax-content-sarau {
-    background-color: #F4C70C;
+#galeria .parallax-content-galeria {
+    background-color: #007A7B;
     text-align: center;
     padding: 50px;
 }
 
-#sarau .parallax-content-sarau h3 {
+#galeria .parallax-content-galeria h3 {
    font-family: 'Fjalla One', sans-serif;
    font-size: 30px;
    text-transform: uppercase;
-   color: white;
+   color: #E8E8E8;
    margin-top: 0;
    padding-top: 20px;
 }
 
-#sarau .parallax-content-sarau > p {
+#galeria .parallax-content-galeria > p {
     font-family: 'Nunito', sans-serif;
-   color: white;
+   color: #E8E8E8;
    text-transform: none;
 }
 
 
 /* ======================================================
-=================================*//* PAGINA QUEM SOMOS */
+================================= PÁGINA O PROJETO 
 
-/* CAROUSEL */
+/* CAROUSEL 
 .carrossel-quem-somos img {
     width: 100%;
     max-width: 800px;
@@ -256,10 +276,10 @@ nav {
 
 .carousel-control-next {
     right: 100px;
-}
+} */
 
-/* CONTEUDO QUEM SOMOS */
-.quem-somos h3 {
+/* CONTEÚDO O PROJETO */
+.the-project h3 {
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 3em;
@@ -269,63 +289,75 @@ nav {
    
 }
 
-.quem-somos p {
+.the-project p {
     font-family: "Nunito", Arial, Helvetica, sans-serif;
     color: black;
     font-size: 20px;
    
 }
 
-span.paragraph-colorful {
-   font-size: 20px; 
-   color: white;
-   background-color: #12663C;
-   font-family:'Courier New', Courier, monospace;
-   font-style: italic;
-   text-align: center;
+.texto-destaque {
+    font-size: 25px;
+    background-color: #005C84;
+    color: #E8E8E8;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 /* ======================================================
-=======================================*//* PAGINA ATUAÇÃO */
-
-
-.atuacao {
+=======================================*//* PÁGINA COMO UTILIZAR */
+.utilizacao {
     margin: 20px 10px;
-    
 }
 
-.atuacao h3 {
+.utilizacao h3 {
  text-align: center;
 }
 
-atuacao p {
+.utilizacao p {
     font-family: "Nunito", Arial, Helvetica, sans-serif;
     color: black;
     font-size: 20px;
+    margin: 0 auto;
 }
 
+span.paragraph-colorful {
+    font-size: 20px; 
+    color:black;
+    background-color: #FEA02F;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+ }
 
-.texto-destaque {
-    font-size: 25px;
-    background-color: #800724;
-    color: white;
-    font-style: italic;
-    font-family: 'Courier New', Courier, monospace;
+
+
+
+.pdfdoc {
+   padding-top: 4%;
 }
 
-/* CAROUSEL ATUAÇÃO */
+.pdfdoc a {
+    font-size: 1.5em;
+    text-decoration: underline;
+    
+}
+/* CAROUSEL ATUAÇÃO 
 #carouselExampleControls img {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
 
-}
+} */
 
 /* APOIADORES*/
 .apoiadores {
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
+    padding-bottom: 5%;
+}
 
+.apoiadores h4 {
+    padding-bottom: 5%;
 }
 
 .apoiadores div {
@@ -335,13 +367,14 @@ atuacao p {
 
 .apoiadores img {
     width: 20%;
+    align-items: center;
 }
 
 
-/* =================================================================================================*//* PAGINA SARAU */
+/* =================================================================================================*//* PÁGINA GALERIA DE FOTOS */
 
-/* CONTEUDO SARAU */
-.sarau  h3{
+/* CONTEÚDO GALERIA DE FOTOS */
+.galeria  h3{
     font-size: 3em;
     font-family: 'Fjalla One', sans-serif; 
     color: #000000;
@@ -349,12 +382,12 @@ atuacao p {
     margin: 24px;
     
 }
-.sarau p {
+.galeria p {
     font-family: "Nunito", Arial, Helvetica, sans-serif;
     color: black;
     font-size: 20px;
 }
-.sarau2 img{
+.galeria2 img{
     width: 100%;
     max-width:800px;
     margin: 0 auto;
@@ -362,15 +395,14 @@ atuacao p {
 
 .frase-destaque {
     font-size: 25px;
-    background-color: #F4C70C;
+    background-color: #007A7B;
     color: black;
-    font-style: italic;
     font-family: 'Courier New', Courier, monospace;
 }
 
 
 
-/* CAROUSEL SARAU */
+/* CAROUSEL GALERIA DE FOTOS */
 
 .carousel-control-prev{
   left: 100px;
@@ -401,12 +433,21 @@ li {
 }
 
 .lista ul li {
-    color: #f4c70c;
+    color: #E8E8E8;
 
 }
 
 .fbInsta {
-    padding-left: 30%;
+    padding-left: 1%;
+    display: flex;
+}
+
+.fb {
+    margin-right: 58px;
+}
+
+.insta {
+    margin-right: 50px;
 }
 .logo-footer{
     text-align: center;
@@ -416,21 +457,21 @@ li {
 }
 
 .lista > li {
-    color: #f4c70c;
+    color: #E8E8E8;
 }
 
 .lista a{
-    color: #f4c70c;
+    color: #E8E8E8;
     text-decoration: none;
 }
 
 .rodape1 a {
     text-decoration: none;
-    color: #f4c70c;   
+    color: #E8E8E8;   
 }
 
 .rodape1  a:hover {
-    background-color: #800724;
+    background-color: #005C84;
     padding: 2px 0;
 }
 
