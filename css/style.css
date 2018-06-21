@@ -438,7 +438,7 @@ li {
 }
 
 .fbInsta {
-    padding-left: 16%;
+    padding-left: 24%;
     display: flex;
 }
 
@@ -479,11 +479,11 @@ li {
 
 @media (max-width:680px){
     .navbar p {
-        font-size: 30px;
+        font-size: 28px;
         text-align: center;
         align-content: center;
         max-width: 47%;
-        margin-left: 280px;
+        margin-left: 225px;
         
     }
 
